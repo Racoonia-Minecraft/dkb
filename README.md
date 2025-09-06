@@ -12,7 +12,7 @@ Files and folders should be named in **snake case** (all lowercase seperated by 
 
 Functions should be split into **internal functions**, located inside the namespace `_datapackname` and **external functions**, meaning functions that are intended to be used by a player or other datapack, located inside the namespace `datapackname`.
 
-The **load** function and **main** loop should both be located in the **internal namespace** and should be named `load.mcfunction` and either `tick.mcfunction` in case of the main loop being triggered every tick (not recommended see [2.1 Scheduled Main Loop](#2.1-Scheduled-Main-Loop)) or `main.mcfunction` in every other case.
+The **load** function and **main** loop should both be located in the **internal namespace** and should be named `load.mcfunction` and either `tick.mcfunction` in case of the main loop being triggered every tick (not recommended see [2.1 Scheduled Main Loop](#21-Scheduled-Main-Loop)) or `main.mcfunction` in every other case.
 
 Functions should be grouped in folders named after their **common functionality**. For example getter functions for various items could be grouped inside a folder named `get` not only organizing them but also shortening the individual file names by removing the `get` prefix.
 
