@@ -22,7 +22,7 @@ For naming **storage paths, scoreboards, custom nbt tags and fake entities** sho
 
 The **storage namespace** should be the name of the **datapack creator** or in case of a group of datapacks belonging together a **group name**. Under no circumstances should the `minecraft` namespace be used.
 
-Fake entities should be prefixed with a `#` (This also prevents them from showing up in the scoreboard sidebar).
+Fake entities should be prefixed with a `#` (This also prevents them from showing up in the scoreboard sidebar) and named in the pattern `namespace.entity_name`, `author.entity_name` or `datapack_group.entity_name`.
 
 ### 2. Performance
 
